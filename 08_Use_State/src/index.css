@@ -1,0 +1,12 @@
+.counter {
+  text-align: center;
+}
+
+.kali {
+  display: flex;
+  justify-content: center;
+}
+
+.kali button {
+  margin: 20px;
+}
