@@ -2,9 +2,9 @@ import React, { useState } from "react";
 
 const MyComponent = () => {
   const [cars, setCars] = useState([]);
-  const [carYear, setCarYear] = useState(new Date().getFullYear());
-  const [carMake, setCarMake] = useState("Jeep");
-  const [carModel, setCarModel] = useState("Wrangler");
+  const [carYear, setCarYear] = useState();
+  const [carMake, setCarMake] = useState();
+  const [carModel, setCarModel] = useState();
 
   const handleAddCar = () => {
     const newCar = { year: carYear, make: carMake, model: carModel };
